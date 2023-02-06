@@ -1,0 +1,210 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'projeto_restaurante2.ui'
+##
+## Created by: Qt User Interface Compiler version 6.4.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QLabel,
+    QLineEdit, QListWidget, QListWidgetItem, QMainWindow,
+    QMenuBar, QPushButton, QSizePolicy, QSpinBox,
+    QStatusBar, QTabWidget, QTextBrowser, QVBoxLayout,
+    QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(628, 728)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.verticalLayout = QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.tabWidget = QTabWidget(self.centralwidget)
+        self.tabWidget.setObjectName(u"tabWidget")
+        self.tab = QWidget()
+        self.tab.setObjectName(u"tab")
+        self.nome_tit_cad = QLabel(self.tab)
+        self.nome_tit_cad.setObjectName(u"nome_tit_cad")
+        self.nome_tit_cad.setGeometry(QRect(40, 83, 47, 13))
+        self.nome_tit_cad.setAlignment(Qt.AlignCenter)
+        self.descricao_tit_cad = QLabel(self.tab)
+        self.descricao_tit_cad.setObjectName(u"descricao_tit_cad")
+        self.descricao_tit_cad.setGeometry(QRect(40, 110, 71, 16))
+        self.descricao_tit_cad.setAlignment(Qt.AlignCenter)
+        self.valor_tit_cad = QLabel(self.tab)
+        self.valor_tit_cad.setObjectName(u"valor_tit_cad")
+        self.valor_tit_cad.setGeometry(QRect(40, 145, 47, 13))
+        self.valor_tit_cad.setAlignment(Qt.AlignCenter)
+        self.ok_button_cad = QPushButton(self.tab)
+        self.ok_button_cad.setObjectName(u"ok_button_cad")
+        self.ok_button_cad.setGeometry(QRect(20, 190, 75, 23))
+        self.cadastro_tit = QLabel(self.tab)
+        self.cadastro_tit.setObjectName(u"cadastro_tit")
+        self.cadastro_tit.setGeometry(QRect(40, 30, 201, 16))
+        self.label_5 = QLabel(self.tab)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(220, 460, 47, 13))
+        self.line_nome_cad = QLineEdit(self.tab)
+        self.line_nome_cad.setObjectName(u"line_nome_cad")
+        self.line_nome_cad.setGeometry(QRect(110, 80, 113, 20))
+        self.line_descricao_cad = QLineEdit(self.tab)
+        self.line_descricao_cad.setObjectName(u"line_descricao_cad")
+        self.line_descricao_cad.setGeometry(QRect(110, 110, 113, 20))
+        self.line_valor_tit = QLineEdit(self.tab)
+        self.line_valor_tit.setObjectName(u"line_valor_tit")
+        self.line_valor_tit.setGeometry(QRect(110, 140, 113, 20))
+        self.edicao_tit = QLabel(self.tab)
+        self.edicao_tit.setObjectName(u"edicao_tit")
+        self.edicao_tit.setGeometry(QRect(40, 250, 211, 16))
+        self.exclusao_tit = QLabel(self.tab)
+        self.exclusao_tit.setObjectName(u"exclusao_tit")
+        self.exclusao_tit.setGeometry(QRect(30, 490, 211, 16))
+        self.cancelar_button_cad = QPushButton(self.tab)
+        self.cancelar_button_cad.setObjectName(u"cancelar_button_cad")
+        self.cancelar_button_cad.setGeometry(QRect(130, 190, 75, 23))
+        self.ok_button_exc = QPushButton(self.tab)
+        self.ok_button_exc.setObjectName(u"ok_button_exc")
+        self.ok_button_exc.setGeometry(QRect(20, 560, 75, 23))
+        self.cancelar_button_exc = QPushButton(self.tab)
+        self.cancelar_button_exc.setObjectName(u"cancelar_button_exc")
+        self.cancelar_button_exc.setGeometry(QRect(130, 560, 75, 23))
+        self.nome_tit_edi = QLabel(self.tab)
+        self.nome_tit_edi.setObjectName(u"nome_tit_edi")
+        self.nome_tit_edi.setGeometry(QRect(40, 320, 47, 13))
+        self.nome_tit_edi.setAlignment(Qt.AlignCenter)
+        self.line_nome_edi = QLineEdit(self.tab)
+        self.line_nome_edi.setObjectName(u"line_nome_edi")
+        self.line_nome_edi.setGeometry(QRect(110, 320, 113, 20))
+        self.line_valor_edi = QLineEdit(self.tab)
+        self.line_valor_edi.setObjectName(u"line_valor_edi")
+        self.line_valor_edi.setGeometry(QRect(110, 380, 113, 20))
+        self.descricao_tit_edi = QLabel(self.tab)
+        self.descricao_tit_edi.setObjectName(u"descricao_tit_edi")
+        self.descricao_tit_edi.setGeometry(QRect(40, 350, 71, 16))
+        self.valor_tit_edi = QLabel(self.tab)
+        self.valor_tit_edi.setObjectName(u"valor_tit_edi")
+        self.valor_tit_edi.setGeometry(QRect(40, 380, 47, 13))
+        self.valor_tit_edi.setLayoutDirection(Qt.LeftToRight)
+        self.valor_tit_edi.setAlignment(Qt.AlignCenter)
+        self.line_descricao_edi = QLineEdit(self.tab)
+        self.line_descricao_edi.setObjectName(u"line_descricao_edi")
+        self.line_descricao_edi.setGeometry(QRect(110, 350, 113, 20))
+        self.ok_button_edi = QPushButton(self.tab)
+        self.ok_button_edi.setObjectName(u"ok_button_edi")
+        self.ok_button_edi.setGeometry(QRect(20, 420, 75, 23))
+        self.cancelar_button_edi = QPushButton(self.tab)
+        self.cancelar_button_edi.setObjectName(u"cancelar_button_edi")
+        self.cancelar_button_edi.setGeometry(QRect(130, 420, 75, 23))
+        self.line1 = QFrame(self.tab)
+        self.line1.setObjectName(u"line1")
+        self.line1.setGeometry(QRect(10, 230, 221, 16))
+        self.line1.setFrameShape(QFrame.HLine)
+        self.line1.setFrameShadow(QFrame.Sunken)
+        self.line2 = QFrame(self.tab)
+        self.line2.setObjectName(u"line2")
+        self.line2.setGeometry(QRect(10, 460, 221, 16))
+        self.line2.setFrameShape(QFrame.HLine)
+        self.line2.setFrameShadow(QFrame.Sunken)
+        self.comboBox_edi = QComboBox(self.tab)
+        self.comboBox_edi.setObjectName(u"comboBox_edi")
+        self.comboBox_edi.setGeometry(QRect(50, 280, 151, 22))
+        self.comboBox_exclusao = QComboBox(self.tab)
+        self.comboBox_exclusao.setObjectName(u"comboBox_exclusao")
+        self.comboBox_exclusao.setGeometry(QRect(40, 520, 151, 22))
+        self.tabWidget.addTab(self.tab, "")
+        self.tab_2 = QWidget()
+        self.tab_2.setObjectName(u"tab_2")
+        self.cardapio_label = QLabel(self.tab_2)
+        self.cardapio_label.setObjectName(u"cardapio_label")
+        self.cardapio_label.setGeometry(QRect(250, 20, 81, 16))
+        self.label_13 = QLabel(self.tab_2)
+        self.label_13.setObjectName(u"label_13")
+        self.label_13.setGeometry(QRect(150, 470, 47, 13))
+        self.spinBox_pedido = QSpinBox(self.tab_2)
+        self.spinBox_pedido.setObjectName(u"spinBox_pedido")
+        self.spinBox_pedido.setGeometry(QRect(240, 50, 42, 22))
+        self.ok_button_pedido = QPushButton(self.tab_2)
+        self.ok_button_pedido.setObjectName(u"ok_button_pedido")
+        self.ok_button_pedido.setGeometry(QRect(110, 180, 75, 23))
+        self.caixa_texto_pedido = QListWidget(self.tab_2)
+        self.caixa_texto_pedido.setObjectName(u"caixa_texto_pedido")
+        self.caixa_texto_pedido.setGeometry(QRect(20, 90, 261, 81))
+        self.textBrowser_pedido = QTextBrowser(self.tab_2)
+        self.textBrowser_pedido.setObjectName(u"textBrowser_pedido")
+        self.textBrowser_pedido.setGeometry(QRect(320, 50, 221, 121))
+        self.cancelar_button_pedido = QPushButton(self.tab_2)
+        self.cancelar_button_pedido.setObjectName(u"cancelar_button_pedido")
+        self.cancelar_button_pedido.setGeometry(QRect(470, 180, 75, 23))
+        self.finalizar_button_pedido = QPushButton(self.tab_2)
+        self.finalizar_button_pedido.setObjectName(u"finalizar_button_pedido")
+        self.finalizar_button_pedido.setGeometry(QRect(320, 180, 121, 23))
+        self.comboBox_pedido = QComboBox(self.tab_2)
+        self.comboBox_pedido.setObjectName(u"comboBox_pedido")
+        self.comboBox_pedido.setGeometry(QRect(20, 50, 191, 22))
+        self.tabWidget.addTab(self.tab_2, "")
+
+        self.verticalLayout.addWidget(self.tabWidget)
+
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 628, 22))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        self.tabWidget.setCurrentIndex(1)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.nome_tit_cad.setText(QCoreApplication.translate("MainWindow", u"NOME:", None))
+        self.descricao_tit_cad.setText(QCoreApplication.translate("MainWindow", u"DESCRI\u00c7\u00c3O:", None))
+        self.valor_tit_cad.setText(QCoreApplication.translate("MainWindow", u"VALOR:", None))
+        self.ok_button_cad.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.cadastro_tit.setText(QCoreApplication.translate("MainWindow", u"CADASTRO DE PRODUTOS/PRATOS", None))
+        self.label_5.setText("")
+        self.edicao_tit.setText(QCoreApplication.translate("MainWindow", u"EDI\u00c7\u00c3O DE PRODUTOS/PRATOS", None))
+        self.exclusao_tit.setText(QCoreApplication.translate("MainWindow", u"EXCLUS\u00c3O DE PRODUTOS/PRATOS:", None))
+        self.cancelar_button_cad.setText(QCoreApplication.translate("MainWindow", u"CANCELAR", None))
+        self.ok_button_exc.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.cancelar_button_exc.setText(QCoreApplication.translate("MainWindow", u"CANCELAR", None))
+        self.nome_tit_edi.setText(QCoreApplication.translate("MainWindow", u"NOME:", None))
+        self.descricao_tit_edi.setText(QCoreApplication.translate("MainWindow", u"DESCRI\u00c7\u00c3O:", None))
+        self.valor_tit_edi.setText(QCoreApplication.translate("MainWindow", u"VALOR:", None))
+        self.ok_button_edi.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.cancelar_button_edi.setText(QCoreApplication.translate("MainWindow", u"CANCELAR", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"Tab 1", None))
+        self.cardapio_label.setText(QCoreApplication.translate("MainWindow", u"CARD\u00c1PIO", None))
+        self.label_13.setText("")
+        self.ok_button_pedido.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.textBrowser_pedido.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt;\">BOLO DE CHOCOLATE    R$ 40,00     2</span></p></body></html>", None))
+        self.cancelar_button_pedido.setText(QCoreApplication.translate("MainWindow", u"CANCELAR", None))
+        self.finalizar_button_pedido.setText(QCoreApplication.translate("MainWindow", u"FINALIZAR PEDIDO", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"Tab 2", None))
+    # retranslateUi
+
